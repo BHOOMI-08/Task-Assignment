@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeCraft 2025 - 48 Hour Innovation Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo">CodeCraft 2025</div>
+        <ul class="nav-links" id="navLinks">
+          <li>
+            <a href="#" onclick="showPage('home')" class="active">Home</a>
+          </li>
+          <li><a href="#" onclick="showPage('details')">Event Details</a></li>
+          <li><a href="#" onclick="showPage('registration')">Register</a></li>
+          <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <!-- Home Page -->
+      <div id="home" class="page active">
+        <section class="hero">
+          <h1>CodeCraft 2025</h1>
+          <p class="tagline">48 Hours of Innovation & Collaboration</p>
+          <p class="description">
+            Join the ultimate hackathon experience where creativity meets
+            technology. Build, innovate, and compete with the brightest minds in
+            tech.
+          </p>
+
+          <div class="event-info">
+            <div class="info-grid">
+              <div class="info-item">
+                <h3>📅 Date</h3>
+                <p>March 15-17, 2025</p>
+              </div>
+              <div class="info-item">
+                <h3>⏰ Time</h3>
+                <p>Friday 6:00 PM - Sunday 6:00 PM</p>
+              </div>
+              <div class="info-item">
+                <h3>📍 Venue</h3>
+                <p>UPES Bidholi Campus<br />Innovation Center</p>
+              </div>
+              <div class="info-item">
+                <h3>🏆 Prize Pool</h3>
+                <p>$25,000 in cash prizes<br />+ Internship opportunities</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="cta-button" onclick="showPage('registration')">
+            Register Now
+          </button>
+        </section>
+      </div>
+
+      <!-- Event Details Page -->
+      <div id="details" class="page">
+        <div class="content-page">
+          <h2>Event Details</h2>
+
+          <h3>About CodeCraft 2025</h3>
+          <p>
+            CodeCraft 2025 is a 48-hour hackathon that brings together students,
+            developers, and innovators to create groundbreaking solutions to
+            real-world problems. Whether you're a seasoned developer or just
+            starting your coding journey, this event offers the perfect platform
+            to learn, collaborate, and showcase your skills.
+          </p>
+
+          <h3>📋 Schedule & Agenda</h3>
+          <div class="schedule-item">
+            <div class="schedule-time">Friday, March 15</div>
+            <strong>6:00 PM - 8:00 PM:</strong> Registration & Welcome
+            Reception<br />
+            <strong>8:00 PM - 9:00 PM:</strong> Opening Ceremony & Theme
+            Announcement<br />
+            <strong>9:00 PM:</strong> Hacking Begins!
+          </div>
+
+          <div class="schedule-item">
+            <div class="schedule-time">Saturday, March 16</div>
+            <strong>8:00 AM - 9:00 AM:</strong> Breakfast<br />
+            <strong>12:00 PM - 1:00 PM:</strong> Lunch & Networking<br />
+            <strong>3:00 PM - 4:00 PM:</strong> Workshop: "AI/ML in Modern
+            Applications"<br />
+            <strong>6:00 PM - 7:00 PM:</strong> Dinner<br />
+            <strong>10:00 PM:</strong> Midnight Snacks & Energy Drinks
+          </div>
+
+          <div class="schedule-item">
+            <div class="schedule-time">Sunday, March 17</div>
+            <strong>8:00 AM - 9:00 AM:</strong> Breakfast<br />
+            <strong>12:00 PM:</strong> Submission Deadline<br />
+            <strong>1:00 PM - 2:00 PM:</strong> Lunch<br />
+            <strong>2:00 PM - 5:00 PM:</strong> Project Presentations<br />
+            <strong>5:00 PM - 6:00 PM:</strong> Judging & Awards Ceremony
+          </div>
+
+          <h3>📜 Rules & Guidelines</h3>
+          <ul style="margin-left: 2rem; margin-top: 1rem">
+            <li>Teams of 2-4 members (individual participation allowed)</li>
+            <li>All code must be written during the event</li>
+            <li>Open source libraries and APIs are permitted</li>
+            <li>Projects must be submitted by 12:00 PM on Sunday</li>
+            <li>All team members must be present for the final presentation</li>
+            <li>Plagiarism will result in immediate disqualification</li>
+            <li>Have fun and learn something new!</li>
+          </ul>
+
+          <h3>🏆 Prizes & Benefits</h3>
+          <div class="prizes-grid">
+            <div class="prize-card">
+              <div class="prize-amount">$10,000</div>
+              <h4>🥇 First Place</h4>
+              <p>
+                Cash prize + Internship opportunities with sponsor companies
+              </p>
+            </div>
+            <div class="prize-card">
+              <div class="prize-amount">$7,000</div>
+              <h4>🥈 Second Place</h4>
+              <p>Cash prize + Mentorship program</p>
+            </div>
+            <div class="prize-card">
+              <div class="prize-amount">$5,000</div>
+              <h4>🥉 Third Place</h4>
+              <p>Cash prize + Tech gadgets</p>
+            </div>
+            <div class="prize-card">
+              <div class="prize-amount">$3,000</div>
+              <h4>🎯 Best Innovation</h4>
+              <p>Special category award for most innovative solution</p>
+            </div>
+          </div>
+
+          <h3>🍕 What's Included</h3>
+          <ul style="margin-left: 2rem; margin-top: 1rem">
+            <li>All meals and snacks throughout the event</li>
+            <li>Free t-shirts and swag</li>
+            <li>Access to workshops and mentorship</li>
+            <li>Networking opportunities with industry professionals</li>
+            <li>Certificate of participation</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Registration Page -->
+      <div id="registration" class="page">
+        <div class="content-page">
+          <h2>Register for CodeCraft 2025</h2>
+
+          <div class="form-container">
+            <div class="success-message" id="successMessage">
+              🎉 Registration successful! We'll send you more details via email
+              soon.
+            </div>
+
+            <form id="registrationForm">
+              <div class="form-group">
+                <label for="fullName">Full Name *</label>
+                <input type="text" id="fullName" name="fullName" required />
+                <div class="error-message" id="fullNameError">
+                  Please enter your full name
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required />
+                <div class="error-message" id="emailError">
+                  Please enter a valid email address
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required />
+                <div class="error-message" id="phoneError">
+                  Please enter a valid phone number
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="college">College/University *</label>
+                <input type="text" id="college" name="college" required />
+                <div class="error-message" id="collegeError">
+                  Please enter your college/university name
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="year">Year of Study</label>
+                <select id="year" name="year">
+                  <option value="">Select your year</option>
+                  <option value="1st">1st Year</option>
+                  <option value="2nd">2nd Year</option>
+                  <option value="3rd">3rd Year</option>
+                  <option value="4th">4th Year</option>
+                  <option value="graduate">Graduate</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="experience">Programming Experience</label>
+                <select id="experience" name="experience">
+                  <option value="">Select your level</option>
+                  <option value="beginner">Beginner (0-1 years)</option>
+                  <option value="intermediate">Intermediate (1-3 years)</option>
+                  <option value="advanced">Advanced (3+ years)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="interests">Areas of Interest (Optional)</label>
+                <textarea
+                  id="interests"
+                  name="interests"
+                  rows="3"
+                  placeholder="e.g., Web Development, AI/ML, Mobile Apps..."
+                ></textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="dietary">Dietary Restrictions (Optional)</label>
+                <input
+                  type="text"
+                  id="dietary"
+                  name="dietary"
+                  placeholder="e.g., Vegetarian, Vegan, Allergies..."
+                />
+              </div>
+
+              <button type="submit" class="cta-button" style="width: 100%">
+                Complete Registration
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Page -->
+      <div id="contact" class="page">
+        <div class="content-page">
+          <h2>Contact Us</h2>
+
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h3>Get in Touch</h3>
+              <p>Have questions about CodeCraft 2025? We're here to help!</p>
+
+              <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div>
+                  <strong>Email</strong><br />
+                  info@codecraft2025.com
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">📱</div>
+                <div>
+                  <strong>Phone</strong><br />
+                  +1 (555) 123-4567
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">💬</div>
+                <div>
+                  <strong>Discord</strong><br />
+                  Join our community server
+                </div>
+              </div>
+
+              <div class="social-links">
+                <a href="#" title="Facebook">📘</a>
+                <a href="#" title="Twitter">🐦</a>
+                <a href="#" title="Instagram">📷</a>
+                <a href="#" title="LinkedIn">💼</a>
+              </div>
+            </div>
+
+            <div class="contact-info">
+              <h3>Event Venue</h3>
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div>
+                  <strong>UPES</strong><br />
+                  Innovation Center<br />
+                  123 University Ave<br />
+                  Tech City, TC 12345
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">🚗</div>
+                <div>
+                  <strong>Parking</strong><br />
+                  Free parking available in lots A, B, and C
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">🚌</div>
+                <div>
+                  <strong>Public Transport</strong><br />
+                  Metro Station: University Central<br />
+                  Bus Routes: 12, 45, 67
+                </div>
+              </div>
+
+              <div style="margin-top: 2rem">
+                <h4>Organizing Team</h4>
+                <p>
+                  <strong>Arumita</strong> - Event Director<br />
+                  <strong>Bhoomi Arora</strong> - Technical Lead<br />
+                  <strong>Aashna</strong> - Logistics Coordinator
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -159,3 +159,6 @@ if (!emailRegex.test(email)) {
     document.getElementById('emailError').style.display = 'block';
     isValid = false;
 }
+
+Deployment Link
+https://task-assignment-7o7nd6cqg-bhoomi-aroras-projects.vercel.app/
